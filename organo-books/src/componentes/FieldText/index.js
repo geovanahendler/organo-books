@@ -4,7 +4,7 @@ const FieldText = (props) => {
         return (
                 <div className='field-text'>
                         <label>{props.label}</label>
-                        <input placeholder={props.placeholder} />
+                        <input required={props.mandatory} placeholder={props.placeholder} />
                 </div>
         )
 }
